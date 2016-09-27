@@ -6,7 +6,7 @@ def humanized_time_ago(time_ago_in_minutes)
     end
 end
 get '/' do
-  @post_shark = {
+   @post_shark = {
   username: "sharky_j",
   avatar_url: "http://naserca.com/images/sharky_j.jpg",
   photo_url: "http://naserca.com/images/shark.jpg",
@@ -42,6 +42,13 @@ get '/' do
       text: "lunchtime! ;)"
     }]
   }
-  [@post_shark, @post_whale, @post_marlin].to_s
-  erb(:index)
+  
+  
+  
+  @posts = [@post_shark, @post_whale, @post_marlin]
+   
+   erb(:index)
 end
+ 
+
+  
