@@ -17,4 +17,11 @@ class Post < ActiveRecord::Base
      end
     end
     
+    def like_count
+        self.likes.size
+    end
+    
+    def comment_count
+        self.comments.size
+    end    
 end
