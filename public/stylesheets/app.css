@@ -16,3 +16,29 @@ main{
 .post .user-info img{
     border-radius: 50%;
 }
+.form-group{
+    font-size: 1em;
+    margin: auto;
+    width: 20%;
+    border: 2px solid blue;
+    padding: 2px;
+}
+input {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+ .button {
+    width: 10em;
+    font-family: Verdana, sans-serif;
+    color:  red;
+    
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+}
