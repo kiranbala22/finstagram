@@ -4,6 +4,7 @@ class Post < ActiveRecord::Base
     has_many :comments
     has_many :likes
     
+    validates_presence_of :photo_url, :user
     
     def humanized_time_ago
         
