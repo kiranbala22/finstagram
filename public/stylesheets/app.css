@@ -64,3 +64,12 @@ input[type=email] {
     border-radius: 4px;
     background-color: #3CBC8D;
 }
+.new-comment input[type="text"] {
+  width: 100%;
+  font-family: cursive, bold;
+  
+}
+.comments {
+  color: red ;
+  font-weight: bold;
+}
